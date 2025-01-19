@@ -16,5 +16,5 @@ class MultiPage:
 
     def run(self):
         st.title(self.app_name)
-        page = st.sidebar.radio('Menu', self.pages, format_funk=lambda page: page['title'])
+        page = st.sidebar.radio('Menu', self.pages, format_func=lambda page: page['title'])
         page['function']
