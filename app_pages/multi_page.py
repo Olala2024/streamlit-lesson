@@ -12,7 +12,7 @@ class MultiPage:
         )
 
     def app_page(self, title, func) -> None:
-        self.pages. append({"title": title, "function": func})
+        self.pages.append({"title": title, "function": func})
 
     def run(self):
         st.title(self.app_name)
